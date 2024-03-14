@@ -7,19 +7,20 @@ Example of use:
 ```python
 from code_executor import CodeExecutor
 
-python_executor = CodeExecutor(
-    '<TOKEN:str>',
-    '<WIDGET_ID:str>',
-    '<language_id:int>'
+python_executor1 = CodeExecutor(
+    '<token:str>',
+    '<widget_id:str>',
+    '<lang_id:int>(https://sphere-engine.com/supported-languages)'
 )
 
-source_code_example = "print(input(), input())"
+source_code_example = "print(input(), input(), end='')"
 input_data_example = "The best web pentest course is:\nhttps://punkration.ru/"
 
-python_executor.execute(source_code_example, input_data_example)
+python_executor1.execute(source_code_example, input_data_example)
 
-print('source_code: ', python_executor.source_code)
-print('output: ', python_executor.output)
-print('errors: ', python_executor.errors)
-print('server_response: ', python_executor.response)
+print(python_executor1.source_code)
+print(python_executor1.output)
+print(python_executor1.errors)
+print(python_executor1.cmpinfo)
+print(python_executor1.response)
 ```
