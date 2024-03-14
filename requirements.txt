@@ -1,0 +1,4 @@
+asyncio
+requests
+sphere_engine
+simplejson
