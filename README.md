@@ -1,4 +1,4 @@
-# Python Wrapper for Sphere Engine API
+# Python Wrapper for Sphere Engine Compiler API
 
 _This Python package provides a convenient wrapper for accessing the Sphere Engine API. [Sphere Engine](https://sphere-engine.com/) is a powerful cloud-based platform that offers a variety of programming assessment and execution tools. This wrapper simplifies the process of integrating Sphere Engine's functionality into your Python projects._
 
